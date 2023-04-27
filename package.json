@@ -1,0 +1,47 @@
+{
+  "name": "newtypes",
+  "version": "1.0.0",
+  "description": "Typescrips newTypes",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mkrtychiyants/ts-newTypes.git"
+  },
+  "keywords": [
+    "ts"
+  ],
+  "author": "SSM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mkrtychiyants/ts-newTypes/issues"
+  },
+  "homepage": "https://github.com/Mkrtychiyants/ts-newTypes#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@types/jest": "^29.5.1",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "jest": "^29.5.0",
+    "jest-babel": "^1.0.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "raw-loader": "^4.0.2",
+    "ts-jest": "^29.1.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
